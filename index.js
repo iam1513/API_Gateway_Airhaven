@@ -47,6 +47,6 @@ app.get("/home", (req, res) => {
     })
 })
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server up and running on ${PORT}`)
 })
